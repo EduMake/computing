@@ -10,3 +10,8 @@ function run() {
     $("#output").html("");
     main();
 }
+
+$( document ).ready(function() {
+    $("#start").click(run);
+    console.log( "ready!" );
+});
