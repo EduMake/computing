@@ -1,5 +1,5 @@
 function main() {
-    // Write you code here
+    // Write your code here
     OUTPUT("Hello World");
 
 }
