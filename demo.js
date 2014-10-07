@@ -1,8 +1,6 @@
 function main() {
-  // Write you code here
-
+    // Write you code here
+    OUTPUT("Hello World");
 
 }
 
-
-$("#start").click(run);
