@@ -8,6 +8,6 @@ Everything before the line containing only '---' will not be parsed
  resources:
    - https://raw.githubusercontent.com/UTC-Sheffield/computing/master/lib.js
  normalize_css: no
- ...
+...
 
 Everything after the line containing only '...' will not be parsed
