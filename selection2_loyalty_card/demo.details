@@ -4,6 +4,6 @@
  authors:
    - Martyn Eggleton
  resources:
-   - https://raw.githubusercontent.com/UTC-Sheffield/computing/selection1_loyalty_card/lib.js
+   - https://raw.githubusercontent.com/UTC-Sheffield/computing/master/lib.js
  normalize_css: no
 ...
