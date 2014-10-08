@@ -1,0 +1,9 @@
+---
+ name: Computing Demo
+ description: The master demo that all others branch from
+ authors:
+   - Martyn Eggleton
+ resources:
+   - https://raw.githubusercontent.com/UTC-Sheffield/computing/master/lib.js
+ normalize_css: no
+...
