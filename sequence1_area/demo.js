@@ -1,8 +1,8 @@
 function main() {
     // Write your code here
-    var Base = INPUT("Base");
-    var Height = INPUT("Height");
+    var Base = INPUT("base");
+    var Height = INPUT("height");
     var Area = (Base * Height);
-    OUTPUT("Area of a rectangle " + base + " wide and " + height + " tall = " + Area);
+    OUTPUT("Area of a rectangle " + Base + " wide and " + Height + " tall = " + Area);
 }
 
