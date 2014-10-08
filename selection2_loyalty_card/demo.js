@@ -2,7 +2,7 @@ function main() {
     // Write your code here
     var Spend = INPUT("spend");
     var LoyaltyCard = INPUT("loyalty_card");
-    var Discount = "";
+    var Discount = "Discount not calculated yet";
     if(Spend > 100)
     {
         if(LoyaltyCard === "Yes")
