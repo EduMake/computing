@@ -1,3 +1,7 @@
+function INPUT(ControlName) {
+    return $("#" + ControlName).val();
+}
+
 function OUTPUT(Out, Val) {
     if(typeof Val === "undefined")
     {
@@ -7,6 +11,11 @@ function OUTPUT(Out, Val) {
     {
         $("#" + Out).val(Val);
     }
+}
+
+function run() {
+    $("#output").html("");
+    main();
 }
 
 function GET(ControlName) {
@@ -44,6 +53,8 @@ function stop(){
 }
 
 $( document ).ready(function() {
+    $("#start").click(run);
+    console.log( "ready!" );
     $("#stop").click(stop);
     main();
 });
