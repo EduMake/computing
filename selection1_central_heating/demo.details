@@ -5,5 +5,6 @@
    - Martyn Eggleton
  resources:
    - https://raw.githubusercontent.com/UTC-Sheffield/computing/master/lib.js
+   - https://raw.githubusercontent.com/UTC-Sheffield/computing/master/selection1_central_heating/lib.js
  normalize_css: no
 ...
