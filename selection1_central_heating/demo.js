@@ -3,12 +3,9 @@ function loop() {
     var MaxTemp = INPUT("maxtemp");
     var AirTemp = GET("airtemp");
     
-    if(AirTemp < MinTemp)
-    {
+    if(AirTemp < MinTemp) {
         OUTPUT("boiler", "ON");
-    }
-    else
-    {
+    } else {
         
     }
 }
